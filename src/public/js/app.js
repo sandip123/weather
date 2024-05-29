@@ -18,6 +18,7 @@ weatherForm.addEventListener('submit',(e)=>{
     e.preventDefault();
     const value = searchValue.value;
     messagrOne.textContent='Lodding...';
+    
     messageTwo.textContent='';
     if(!value)
        return messagrOne.textContent='Error: '+ 'Please enter address';
